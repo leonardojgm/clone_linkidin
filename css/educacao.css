@@ -1,0 +1,52 @@
+.educacao {
+    background-color: var(--fundo-card);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem 1rem 5rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0;
+}
+
+.educacao__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 1rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.educacao__titulo {
+    color: var(--texto-principal);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.educacao__curso {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.educacao__imagem {
+    width: 2rem;
+}
+
+.educacao__nome {
+    color: var(--texto-principal);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.educacao__curso {
+    color: var(--texto-principal);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.educacao__periodo {
+    color: var(--texto-secundario);
+    font-size: 0.8rem;
+    font-weight: 400;
+}

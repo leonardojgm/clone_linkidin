@@ -1,0 +1,50 @@
+.idiomas {
+    background-color: var(--fundo-card);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem 1rem 5rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0;
+}
+
+.idiomas__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.idiomas__titulo {
+    color: var(--texto-principal);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.idiomas__lingua {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 1rem;
+}
+
+.idioma{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.idioma-borda {    
+    border-bottom: 1px solid var(--texto-secundario);
+    padding: 1rem 0;
+}
+
+.lingua {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.fluencia {
+    color: var(--texto-secundario);
+    font-size: 0.8rem;
+    font-weight: 400;
+}

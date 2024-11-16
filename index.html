@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clone Linkedin</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <a class="menu__link"href="#">
+                    <img class="menu__logo" src="img/logo-linkedin.svg" alt="Logo do Linkedin">
+                </a>
+                <input class="menu__pesquisa" type="search" placeholder="Pesquisar">
+                <ul class="menu__itens">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            <img class="menu__item__icone" src="img/icone-inicio.svg" alt="Icone de inicio">
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            <img class="menu__item__icone" src="img/icone-minha-rede.svg" alt="Icone de minha rede">
+                            <span>Minha rede</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            <img class="menu__item__icone" src="img/icone-vagas.svg" alt="Icone de bagas">
+                            <span>Vagas</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            <img class="menu__item__icone" src="img/icone-mensagens.svg" alt="Icone de mensagens">
+                            <span>Mensagens</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            <img class="menu__item__icone" src="img/icone-notificacoes.svg" alt="Icone de notificações">
+                            <span>Notificações</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            <img class="menu__item__icone" src="img/icone-solucoes.svg" alt="Icone de soluções">
+                            <span>Soluções</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </header>
+        <main>
+            <div class="direita">
+                <section class="info_principal">
+                    <div class="fundo_perfil"></div>
+                    <img class="foto_perfil" src=" https://github.com/leonardojgm.png" alt="Foto de perfil">
+                    <div class="info_perfil">
+                        <div class="info">
+                            <h1 class="info__nome">Leonardo José Garcia Maia</h1>
+                            <h2 class="info__profissao">Desenvolvedor | HTML | CSS | TypeScript | Node</h2>
+                            <p class="info__descricao">Fala sobre #javascript, #frontend, #reactjs e #backend</p>
+                            <p class="info__localizacao">
+                                <span>Cidade, estado e país - </span>
+                                <a class="info__contato" href="https://github.com/leonardojgm">informações de contato</a>
+                            </p>
+                            <div class="info__links">
+                                <a class="info__link" href="#">??? seguidores</a>
+                                <span> - </span>
+                                <a class="info__link" href="#">??? conexões</a>
+                            </div>
+                            <div class="info__botoes">
+                                <a class="info__botao botao__mensagem" href="#">Mensagem</a>
+                                <a class="info__botao botao__mais" href="#">Mais</a>
+                            </div>
+                        </div>
+                        <ul class="empresas">
+                            <li class="empresa">
+                                <img class="logo_empresa" src="img/empresa.png" alt="Logo da empresa">
+                                <h3 class="nome_empresa">Empresa</h3>
+                            </li>
+                            <li class="empresa">
+                                <img class="logo_empresa" src="img/ensino.png" alt="Logo da empresa">
+                                <h3 class="nome_empresa">Instituição de ensino</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="destaques">
+                    <h2 class="destaques__titulo">Destaques</h2>
+                    <ul class="destaques__itens">
+                        <li class="destaque__item">
+                            <div class="destaque__legenda">
+                                <h3 class="destaque__item__titulo">Publicação</h3>
+                                <h4 class="destaque__item__subtitulo">Legenda da primeira publicação</h4>
+                            </div>
+                            <img src="img/publicacao-1.jpg" alt="Destaque 1">
+                            <div class="destaque__engajamento">
+                                <div class="destaque__reacoes">
+                                    <img class="destaque__imagem_reacoes" src="img/Reacoes.png" alt="Icone de reações">
+                                    <p class="destaque__quantidade_reacoes">124</p>
+                                </div>
+                                <p class="destaque__comentarios">5 comentários</p>
+                            </div>
+                        </li>
+                        <li class="destaque__item">    
+                            <div class="destaque__legenda">                    
+                                <h3 class="destaque__item__titulo">Publicação</h3>
+                                <h4 class="destaque__item__subtitulo">Legenda da segunda publicação</h4>
+                            </div>
+                            <img src="img/publicacao-2.jpg" alt="Destaque 2">
+                            <div class="destaque__engajamento">
+                                <div class="destaque__reacoes">
+                                    <img class="destaque__imagem_reacoes" src="img/Reacoes.png" alt="Icone de reações">
+                                    <p class="destaque__quantidade_reacoes">124</p>
+                                </div>
+                                <p class="destaque__comentarios">5 comentários</p>
+                            </div>
+                        </li>
+                        <li class="destaque__item">
+                            <div class="destaque__legenda">
+                                <h3 class="destaque__item__titulo">Publicação</h3>
+                                <h4 class="destaque__item__subtitulo">Legenda da terceira publicação</h4>
+                            </div>
+                            <img src="img/publicacao-3.jpg" alt="Destaque 3">
+                            <div class="destaque__engajamento">
+                                <div class="destaque__reacoes">
+                                    <img class="destaque__imagem_reacoes" src="img/Reacoes.png" alt="Icone de reações">
+                                    <p class="destaque__quantidade_reacoes">124</p>
+                                </div>
+                                <p class="destaque__comentarios">5 comentários</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="atividades">
+                    <h2 class="atividades__titulo">Atividades</h2>
+                    <a class="atividades__link" href="#">??? seguidores</a>
+                    <ul class="atividades__itens">
+                        <li class="atividade__item">
+                            <div class="atividade__legenda">
+                                <h3 class="atividade__item__titulo">Nome Sobrenome publicou isso - 1 sem</h3>
+                            </div>
+                            <div class="atividade__descricao">
+                                <img class="atividade__imagem" src="img/publicacao-1.jpg" alt="Atividade 1">
+                                <p class="atividade__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                            </div>
+                            <div class="atividade__engajamento">
+                                <div class="atividade__reacoes">
+                                    <img class="atividade__imagem_reacoes" src="img/Reacoes.png" alt="Icone de reações">
+                                    <p class="atividade__quantidade_reacoes">124</p>
+                                </div>
+                                <p class="atividade__comentarios">5 comentários</p>
+                            </div>
+                        </li>
+                        <li class="atividade__item">    
+                            <div class="atividade__legenda">                    
+                                <h3 class="atividade__item__titulo">Nome Sobrenome compartilhou isso - 1 sem</h3>
+                            </div>
+                            <div class="atividade__descricao">
+                                <img class="atividade__imagem" src="img/publicacao-2.jpg" alt="Atividade 2">
+                                <p class="atividade__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                            </div>
+                            <div class="atividade__engajamento">
+                                <div class="atividade__reacoes">
+                                    <img class="atividade__imagem_reacoes" src="img/Reacoes.png" alt="Icone de reações">
+                                    <p class="atividade__quantidade_reacoes">124</p>
+                                </div>
+                                <p class="atividade__comentarios">5 comentários</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a class="atividades__exibir-todas" href="#">Exibir todas as atividades</a>
+                </section>
+                <section class="sobre">
+                    <h2 class="sobre__titulo">Sobre</h2>
+                    <p class="sobre__texto">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                    </p>
+                </section>
+                <section class="experiencias">
+                    <h2 class="experiencias__titulo">Experiências</h2>
+                    <div class="experiencias__empresa">
+                        <div class="experiencias__empresa__cabecalho">
+                            <img class="experiencias__empresa__logo" src="img/empresa.png" alt="Logo da empresa">
+                            <div>
+                                <h3 class="experiencias__empresa__nome">Empresa</h3>
+                                <h4 class="experiencias__empresa__tempo">1 a 6 m</h4>
+                            </div>
+                        </div>
+                        <ul class="experiencias__empresa__cargos">
+                            <li class="cargo">
+                                <img class="timeline" src="img/timeline.svg" alt="Timeline">
+                                <div class="cargo__dados">
+                                    <h3 class="cargo__nome">Fullstack Developer</h3>
+                                    <span class="cargo__tipo-emprego">Tempo integral</span>
+                                    <span class="cargo__duracao">jan de 2022 - o momento • 5 meses</span>
+                                    <span class="cargo__localizacao">Cidade, estado e país</span>
+                                </div>
+                             </li>
+                             <li class="cargo">
+                                <img class="timeline" src="img/timeline.svg" alt="Timeline">
+                                <div class="cargo__dados">
+                                    <h3 class="cargo__nome">Fullstack Developer (JR)</h3>
+                                    <span class="cargo__tipo-emprego">Tempo integral</span>
+                                    <span class="cargo__duracao">jun de 2021 - jan de 2022 • 8 meses</span>
+                                    <span class="cargo__localizacao">Cidade, estado e país</span>
+                                </div>
+                             </li>
+                             <li class="cargo">
+                                <img class="timeline" src="img/timeline.svg" alt="Timeline">
+                                <div class="cargo__dados">
+                                    <h3 class="cargo__nome">Front-end Developer</h3>
+                                    <span class="cargo__tipo-emprego">Tempo integral</span>
+                                    <span class="cargo__duracao">jan de 2021 - jun de 2021 • 6 meses</span>
+                                    <span class="cargo__localizacao">Cidade, estado e país</span>
+                                </div>
+                             </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="educacao">
+                    <h2 class="educacao__titulo">Formação acadêmica</h2>
+                    <div class="educacao__item">
+                        <div class="educacao__curso">
+                            <img class="educacao__imagem" src="img/ensino.png" alt="Logo da escola">
+                            <div class="educacao__dados">
+                                <h3 class="educacao__nome">Instituição de ensino</h3>
+                                <h4 class="educacao__curso">Nome do Curso</h4>
+                                <p class="educacao__periodo">2015 a 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="idiomas">
+                    <h2 class="idiomas__titulo">Idiomas</h2>
+                    <ul class="idiomas__lista">
+                        <li class="idiomas__lingua">
+                            <div class="idioma idioma-borda">
+                                <div class="lingua">Português</div>
+                                <div class="fluencia">Fluente ou nativo</div>
+                            </div>
+                        </li>
+                        <li class="idiomas__lingua">
+                            <div class="idioma">
+                                <div class="lingua">Inglês</div>
+                                <div class="fluencia">Intermediário</div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="esquerda">                
+                <section class="tambem__viram">
+                    <h1 class="tambem__viram__titulo">As pessoas também viram</h1>
+                    <ul class="tambem__viram__lista">
+                        <li class="viram__item">
+                            <img class="viram__item__imagem" src="img/perfil_1.png" alt="Imagem da pessoa">
+                            <div class="viram__item__dados">
+                                <h3 class="viram__item__nome">Nome e sobrenome</h3>
+                                <p class="viram__item__profissao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                                <a class="viram__item__botao" href="#">Enviar mensagem</a>
+                            </div>
+                        </li>
+                        <li class="viram__item">
+                            <img class="viram__item__imagem" src="img/perfil_2.png" alt="Imagem da pessoa">
+                            <div class="viram__item__dados">
+                                <h3 class="viram__item__nome">Nome e sobrenome</h3>
+                                <p class="viram__item__profissao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                                <a class="viram__item__botao" href="#">Enviar mensagem</a>
+                            </div>
+                        </li>
+                        <li class="viram__item">
+                            <img class="viram__item__imagem" src="img/perfil_3.png" alt="Imagem da pessoa">
+                            <div class="viram__item__dados">
+                                <h3 class="viram__item__nome">Nome e sobrenome</h3>
+                                <p class="viram__item__profissao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                                <a class="viram__item__botao" href="#">Enviar mensagem</a>
+                            </div>
+                        </li>
+                        <li class="viram__item">                        
+                            <img class="viram__item__imagem" src="img/perfil_4.png" alt="Imagem da pessoa">
+                            <div class="viram__item__dados">
+                                <h3 class="viram__item__nome">Nome e sobrenome</h3>
+                                <p class="viram__item__profissao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                                <a class="viram__item__botao" href="#">Enviar mensagem</a>
+                            </div>
+                        </li>
+                        <li class="viram__item">
+                            <img class="viram__item__imagem" src="img/perfil_5.png" alt="Imagem da pessoa">
+                            <div class="viram__item__dados">
+                                <h3 class="viram__item__nome">Nome e sobrenome</h3>
+                                <p class="viram__item__profissao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                                <a class="viram__item__botao" href="#">Enviar mensagem</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="talves__conheca">
+                    <h1 class="talves__conheca__titulo">Pessoas que talvez você conheça</h1>
+                    <ul class="talves__conheca__lista">
+                        <li class="conheca__item">
+                            <img class="conheca__item__imagem" src="img/perfil_1.png" alt="Imagem da pessoa">
+                            <div class="conheca__item__dados">
+                                <h3 class="conheca__item__nome">Nome e sobrenome</h3>
+                                <p class="conheca__item__profissao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                                <a class="conheca__item__botao" href="#">Conectar</a>
+                            </div>
+                        </li>
+                        <li class="conheca__item">
+                            <img class="conheca__item__imagem" src="img/perfil_2.png" alt="Imagem da pessoa">
+                            <div class="conheca__item__dados">
+                                <h3 class="conheca__item__nome">Nome e sobrenome</h3>
+                                <p class="conheca__item__profissao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                                <a class="conheca__item__botao" href="#">Conectar</a>
+                            </div>
+                        </li>
+                        <li class="conheca__item">
+                            <img class="conheca__item__imagem" src="img/perfil_3.png" alt="Imagem da pessoa">
+                            <div class="conheca__item__dados">
+                                <h3 class="conheca__item__nome">Nome e sobrenome</h3>
+                                <p class="conheca__item__profissao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                                <a class="conheca__item__botao" href="#">Conectar</a>
+                            </div>
+                        </li>
+                        <li class="conheca__item">
+                            <img class="conheca__item__imagem" src="img/perfil_4.png" alt="Imagem da pessoa">
+                            <div class="conheca__item__dados">
+                                <h3 class="conheca__item__nome">Nome e sobrenome</h3>
+                                <p class="conheca__item__profissao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                                <a class="conheca__item__botao" href="#">Conectar</a>
+                            </div>
+                        </li>
+                        <li class="conheca__item">
+                            <img class="conheca__item__imagem" src="img/perfil_5.png" alt="Imagem da pessoa">
+                            <div class="conheca__item__dados">
+                                <h3 class="conheca__item__nome">Nome e sobrenome</h3>
+                                <p class="conheca__item__profissao">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                                <a class="conheca__item__botao" href="#">Conectar</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>

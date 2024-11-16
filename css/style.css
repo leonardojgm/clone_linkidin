@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('reset.css');
+@import url('info.css');
+@import url('menu.css');
+@import url('destaques.css');
+@import url('atividades.css');
+@import url('sobre.css');
+@import url('experiencias.css');
+@import url('educacao.css');
+@import url('idiomas.css');
+@import url('tambem_viram.css');
+@import url('talvez_conheca.css');
+
+:root {
+    --fundo-escuro: #000000;
+    --fundo-card: #1d2226;
+    --fundo-card-ativo: hsla(0, 0%, 100%, 0.12);
+    --texto-principal: hsla(0, 0%, 100%, 0.9);
+    --texto-secundario: hsla(0, 0%, 100%, 0.6);
+    --texto-escuro: hsla(0, 0%, 0%, 0.75);
+    --input: #38434F;
+    --primario: #70b5f9;
+    --positivo: #3ec786;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--fundo-escuro);
+    color: var(--texto-principal);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+}

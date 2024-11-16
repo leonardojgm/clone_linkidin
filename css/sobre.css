@@ -1,0 +1,23 @@
+.sobre {
+    background-color: var(--fundo-card);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem 1rem 5rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0;
+}
+
+.sobre__titulo {
+    color: var(--texto-principal);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.sobre__texto {
+    color: var(--texto-principal);
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: justify;
+}

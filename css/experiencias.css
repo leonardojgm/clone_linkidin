@@ -1,0 +1,89 @@
+.experiencias {
+    background-color: var(--fundo-card);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem 1rem 5rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0 0;
+}
+
+.experiencias__titulo {
+    color: var(--texto-principal);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.experiencias__empresa {
+    color: var(--texto-principal);
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+}
+
+.experiencias__empresa__cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.experiencias__empresa__logo {
+    width: 2rem;
+}
+
+.experiencias__empresa__nome {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+
+.experiencias__empresa__tempo {
+    color: var(--texto-secundario);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.experiencias__empresa__cargos {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.cargo {
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+}
+
+.cargo__dados {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.cargo__nome {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.cargo__tipo-emprego {
+    color: var(--texto-primario);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.cargo__duracao,
+.cargo__localizacao {
+    color: var(--texto-secundario);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.timeline {
+    width: 1rem;
+    height: 3.5rem;
+}
