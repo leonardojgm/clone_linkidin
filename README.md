@@ -1,5 +1,5 @@
 # Clone Linkidin
-Um clono do Linkidin desenvolvido no 7DaysOfCode da Alura (HTML e CSS com Natália F. Dev)
+Um clone do Linkidin desenvolvido no 7DaysOfCode da Alura (HTML e CSS com Natália F. Dev)
 
 ![image](https://github.com/user-attachments/assets/30e623f4-58cd-432b-96ef-3f45993ad2d9)
 
